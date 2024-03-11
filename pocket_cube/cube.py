@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 from matplotlib import animation
 
 from .constants import MOVES, CORNERS, COLORS, LETTERS
-from .moves import Move, MoveInput, MoveSequence
+from .moves import Move, MoveInput, MoveSequence, Moves
 
 import matplotlib.pyplot as plt
 import numpy as np

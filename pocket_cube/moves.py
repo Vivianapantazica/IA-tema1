@@ -6,7 +6,7 @@ from enum import Enum
 
 
 MoveInput = TypeVar("MoveInput", int, str, Enum)
-MoveSequence = TypeVar("oveSequence", List[int], str, List[Enum])
+MoveSequence = TypeVar("MoveSequence", List[int], str, List[Enum])
 Moves = TypeVar("Moves", MoveInput, MoveSequence)
 
 class Move(Enum):
